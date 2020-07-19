@@ -28,7 +28,7 @@ class Router {
             }
             if (typeof route === 'function') {
                 route(ctx, next)
-                return 
+                return
             }
 
             await next()

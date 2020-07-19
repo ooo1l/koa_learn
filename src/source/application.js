@@ -1,7 +1,7 @@
 /* koa为了能够简化api。通过将请求对象req和响应对象res封装
  * 并且挂载到context上，并且在context上设置getter和setter
- * 从而简化操作
- *
+ * 
+ * 只提供封装好http上下文、请求、响应，以及基于async/await的中间件容器。
  */
 
 const http = require('http')

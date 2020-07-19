@@ -1,5 +1,5 @@
-const Koa = require('./source/koa.js')
-const Router = require('./source/router.js')
+const Koa = require('./source/application.js')
+const Router = require('./source/middleware/router.js')
 const app = new Koa()
 const router = new Router()
 

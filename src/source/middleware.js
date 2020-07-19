@@ -57,9 +57,10 @@ function delay() {
   });
 }
 
-const middleware = [fn1, fn2, fn3];
-const finalFn = compose2(middleware);
-// finalFn();
+// const middlewares = [fn1, fn2, fn3];
+const middlewares = [fn1, fn2]
+const finalFn = compose2(middlewares);
+finalFn();
 
 
 module.exports = {
